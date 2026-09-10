@@ -12,7 +12,13 @@ from sklearn.model_selection import train_test_split
 # --------------------------------------------------
 # Page Configuration
 # --------------------------------------------------
-
+st.markdown("""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+    """, unsafe_allow_index=True)
 st.set_page_config(
     page_title="Academic Risk Predictor",
     page_icon="🎓",
