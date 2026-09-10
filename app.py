@@ -1,8 +1,3 @@
-import subprocess
-import sys
-
-# Forcefully installing libraries via subprocess
-subprocess.check_call([sys.executable, "-m", "pip", "install", "matplotlib", "seaborn", "scikit-learn"])
 import numpy as np
 import pandas as pd
 import streamlit as st
