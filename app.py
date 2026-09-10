@@ -1,3 +1,5 @@
+import os
+os.system('pip install matplotlib seaborn scikit-learn')
 import numpy as np
 import pandas as pd
 import streamlit as st
